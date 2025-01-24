@@ -10,3 +10,7 @@ This is a beginner friendly Git tutorial
 
 - Basic Git commands
 - Github integration
+
+## Installation
+
+Clone the repository to get started
