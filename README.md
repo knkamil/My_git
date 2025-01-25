@@ -14,3 +14,7 @@ This is a beginner friendly Git tutorial
 ## Installation
 
 Clone the repository to get started
+
+## Usage
+
+Opened to all who would want to use it
