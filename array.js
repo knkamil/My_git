@@ -17,34 +17,34 @@
 
 
 //Arrays and Objects
-const groceryList = [
-    {item: "Apples", price: 25, category: "fruits"},
-    {item: "Mangoes", price: 35, category: "fruits"},
-    {item: "Tomatoes", price: 15, category: "vege"},
-    {item: "Milk", price: 20, category: "misc"},
-    {item: "Bread", price: 12, category: "misc"},
-    {item: "Eggs", price: 18, category: "misc"}
-];
+// const groceryList = [
+//     {item: "Apples", price: 25, category: "fruits"},
+//     {item: "Mangoes", price: 35, category: "fruits"},
+//     {item: "Tomatoes", price: 15, category: "vege"},
+//     {item: "Milk", price: 20, category: "misc"},
+//     {item: "Bread", price: 12, category: "misc"},
+//     {item: "Eggs", price: 18, category: "misc"}
+// ];
 
-console.log(groceryList[0].item);
-const[{category}]= groceryList;//Use the key name itself
-console.log(category);
+// console.log(groceryList[0].item);
+// const[{category}]= groceryList;//Use the key name itself
+// console.log(category);
 
-// const [,,,,item] = groceryList;
+// // const [,,,,item] = groceryList;
+// // console.log(item);
+
+// const [,,{item},...rest]= groceryList;
 // console.log(item);
+// console.log(rest);
 
-const [,,{item},...rest]= groceryList;
-console.log(item);
-console.log(rest);
+// const company = {
+//     name: "Google",
+//     location: ["Singapore", "India", "Germany"],
+// };
 
-const company = {
-    name: "Google",
-    location: ["Singapore", "India", "Germany"],
-};
+// const {location:[loci]} = company;
+// console.log(loci);
 
-const {location:[loci]} = company;
-console.log(loci);
-
-const {location:[,,last],}= company;
-console.log(last)
+// const {location:[,,last],}= company;
+// console.log(last)
 
